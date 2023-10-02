@@ -1,0 +1,422 @@
+*{
+    margin: 0 auto;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-color: #ffffff;
+   
+}
+
+#container {
+    width: 90%;   
+   
+}
+
+
+
+header{ 
+  color: white;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;    
+}
+
+menu {  
+  width: 70%;
+ text-decoration-color: azure;
+}
+
+#logo {  
+    width: 30%;  
+}
+#logo img {
+margin: 10px;
+    width: 40%;
+    height: 90%;
+}
+nav{
+  
+    margin-top: 30px;
+    width: 70%;
+}
+nav ul {
+  
+list-style: none;
+height: 50px;
+display: flex;
+   align-items: center;
+    
+  }
+  
+  nav li {
+ 
+    margin-top: 5px;
+    margin: 0;
+    display: inline;
+    margin-right: 60px;
+    
+  }
+  nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+ 
+  #content { 
+    width: 100%;
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+  }
+  #info { 
+    
+    width: 65%;
+    background-color: #ffffff;
+    
+  }
+  #banner { 
+   
+    display: flex;
+    width: 100%;
+  }
+
+  .textss {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 20px;
+  }
+   
+ .bann{
+    width: 40%;
+    text-align: left;
+    
+  }
+
+  .textoban{
+    width: 50%;
+  }
+  
+  .textobon #button{
+    color: rgb(248, 185, 10);
+    height: 100px;
+  }
+  #info #textss { 
+
+    display: flex;
+  }
+  #banner img { 
+    height: 500px;
+    width: 100%;
+    
+  }
+  #barral {
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+  }
+
+  hr{ 
+    margin: 10px;
+  }
+ 
+  #barral img{ 
+    width: 40%;
+    height: 100px;
+  }
+
+
+
+
+
+#targeta p{
+  width: 50%;
+}
+
+#cards{
+  width: 100%;
+  
+  flex-wrap: wrap;
+}
+
+
+  #targeta {
+   margin-top: 50px;
+    text-align: center;
+    display: flex;
+    width: 10%;
+    height: 10px;
+   display:inline-flex;
+   margin-left: 30px;
+    flex-wrap: wrap;
+    background-color: rgb(196, 196, 144);
+  }
+
+#targeta text p{
+font-size:50px;
+  width: 100%;
+  
+  
+ }
+
+#hamburguer{
+  display: none;
+  margin: 25px;
+  align-items: center;
+}
+
+#close {
+  display: none;
+}
+
+#cardss{
+  display: flex;
+  
+}
+
+
+  #targetas {
+   margin-top: 50px;
+    text-align: center;
+    
+    width: 10%;
+    height: 100px;
+   display:inline-flex;
+   margin-left: 30px;
+    flex-wrap: wrap;
+    background-color: rgb(196, 196, 144);
+  }
+
+#targetas text p{
+font-size:50px;
+  width: 100%;
+  
+ }
+
+ footer {
+  margin-top: 40px;
+  background-color: #ffffff;
+  
+ 
+
+}
+ footer .pie { 
+display: flex;
+ }
+ .pie .infopie{ 
+  display: flex;
+  padding-right: 40px;
+  justify-content: space-between;
+ }
+ footer img{
+  height: 100px;
+ }
+ .pie .infopie .textopie{
+  width: 75%;
+ }
+/* Estilo base para el botón */
+button {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #020303; /* Color de fondo */
+  color: #fff; /* Color de texto */
+  border: none; /* Elimina el borde */
+  border-radius: 5px; /* Añade bordes redondeados */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilo para cuando el cursor está sobre el botón */
+button:hover {
+  background-color: #033d7a; /* Cambia el color de fondo en el hover */
+}
+
+/* Estilo para cuando se hace clic en el botón */
+button:active {
+  background-color: #093870; /* Cambia el color de fondo al hacer clic */
+}
+
+
+@media(max-width:470px) {
+  nav{
+    background-color: blueviolet;
+    position: absolute;
+    top: 0px;
+    height: 1000px;
+ 
+    right: 0px;
+    display: none;
+  }
+  nav ul{
+    flex-direction: column;
+    padding-top:60px;
+  }
+  nav ul li{
+    margin: 30px 0;
+     
+  }
+
+  #logo{
+    width: 100%;
+  }
+  #logo img{
+    width: 18%;
+  }
+  #hamburguer{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 20;
+  }
+  #content{
+    flex-direction: column;
+  }
+  #info{
+    margin: 0;
+    width: 100%;
+  }
+  #text{
+    flex-direction: column;
+  }
+  #text h1{ 
+    width: 100%;
+  }
+  #text #descripcion{ 
+    width: 100%;
+  }
+  #barral{
+    width: 95%;
+    margin-top: 40px;
+  }
+
+
+
+  #cardss{
+    width: 100%;
+    
+    flex-wrap: wrap;
+  }
+  
+  
+    #targetas {
+     margin-top: 50px;
+      text-align: center;
+      display: flex;
+      width: 10%;
+      height: 100px;
+     display:inline-flex;
+     margin-left: 30px;
+      flex-wrap: wrap;
+      background-color: rgb(196, 196, 144);
+    }
+  
+  #targetas text p{
+  font-size:50px;
+    width: 100%;
+    
+   }
+}
+
+
+
+  @media (max-width:480px) {
+    nav {
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        height: 1000px;
+        top: 0;
+        right: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    nav ul li {
+        margin: 20px 0;
+    }
+
+    #menu {
+      margin-top: 0;
+        
+    }
+
+    #hamburguer {
+        display: block;
+        position: absolute;
+        z-index: 20;
+        top: 10px;
+        right: 20px;
+    }
+
+    header {
+        margin-top: 10px;
+    }
+
+    #logo {
+        margin: 0;
+    }
+
+    #logo img {
+        width:50%;
+    }
+
+    #content {
+        flex-direction: column;
+    }
+
+    #info {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #barral {
+        width: 100%;
+    }
+
+    #text {
+        flex-direction: column;
+    }
+
+    #text h1 {
+        width: 100%;
+    }
+
+    #text #descripcion {
+        width: 100%;
+    }
+
+    #close {
+      display: none;
+        position: absolute;
+        z-index: 20;
+        top: 10px;
+        right: 20px;
+    }
+
+    footer .pie {
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+    }
+
+    .pie .infopie {
+      flex-direction: column;
+    margin: 40px;
+    width:90%;
+    }
+
+    .pie .infopie {
+      flex-direction: column;
+    margin: 40px;
+    width:90%;
+    }
+   
+}

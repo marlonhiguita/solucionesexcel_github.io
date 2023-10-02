@@ -1,0 +1,17 @@
+#info {
+    
+    display: flex;
+    flex-wrap: wrap;
+   gap: 50px;
+
+}
+#info .material {
+    margin: 0;
+    
+
+
+}
+
+#info img{
+    width: 160px;
+}
